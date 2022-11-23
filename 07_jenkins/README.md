@@ -23,7 +23,7 @@ Now, to install Jenkins, run the following helm command:
 helm repo add jenkins https://charts.jenkins.io
 helm repo update
 helm install
-  --name jenkins 
+  jenkins 
   --namespace jenkins
   --values values.yml 
   jenkins/jenkins 
