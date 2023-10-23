@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: our-nginx
+  labels:
+    project: icesi-devops
+    service: web
+    version: "0.1"
+    
